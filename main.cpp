@@ -1,13 +1,8 @@
 #include<iostream>
-#include"hd.h"
+#define RANGE(a, n) if(a >= 0 && a < n) \
+std::cout << "Vhodit" << std::endl;\
+else std::cout << "Ne vhodit" << std::endl;
+#define GETEL(array,x,y) *(*((array)+(x) + (y)));
 int main(){
-    res = a * (b + (c / d));
-    printf("%.2lf\n", res);
-    res = 0;
-    int f;
-    std::cin >> f;
-    res = (f > 21) ? (f-21) * 2 : (f-21);
-    std::cout << res;
-    int arr[3][3][3];
-    std::cout << *(*(*(arr + 1) + 1) + 1) << "\n";
+    RANGE(8,9)
 }
